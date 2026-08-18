@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- TABELAS -->
+     <header>
+        <h1>Tabelas top</h1>
+     </header>
+
+     <main>
+        <h2> PRODUTOS </h2>
+        <!-- TABLE = CRIAÇÃO DA TABELA -->
+         <!-- BORDER = CONTROLA AS PROPRIEDADES DE BORDA DA TABELA-->
+        <Table border="5">
+
+            <!-- THEAD = CABEÇALHO DA TABELA -->
+             <thead>
+            <!-- TR = FAZ AS LINHAS PRIMEIRO NA TABELA -->
+             <tr>
+                <!-- TH = COLUNA DE UM CABEÇALHO -->
+                <th> ID </th>
+                <th> NOME </th>
+                <th> QUANTIDADE </th>
+                <th> PREÇO </th>
+                <th> CATEGORIA </th>
+             </tr>
+
+             </thead>
+             <!-- TBODY = CORPO DA TABELA -->
+              <tbody>
+                <tr>
+                    <!-- TD = CÉLULA DA LINHA DO CORPO -->
+                     <td> 1 </td>
+                     <td> Shampoo CR7 </td>
+                     <td> 7 </td>
+                     <td> R$77,00 </td>
+                     <td> Higiene </td>
+                </tr>
+                <!-- CRIANDO MAIS DUAS LINHAS A PEDIDO DO PROFESSOR -->
+                 <!-- MAIS FÁCIL tr*2>td*5 -->
+                <tr>
+                    <!-- TD = CÉLULA DA LINHA DO CORPO -->
+                     <td> 2 </td>
+                     <!-- colspan = diz qts colunas a célula vai ocupar -->
+                     <td colspan="3"> Esmalte </td> 
+                     <!-- rowspan = diz qunatas linhas a célula vai ocupar -->
+                     <td rowspan="2"> Beleza </td>
+                </tr>
+
+                <tr>
+                    <!-- TD = CÉLULA DA LINHA DO CORPO -->
+                     <td> 3 </td>
+                     <td> Sabonete </td>
+                     <td> 39 </td>
+                     <td> R$3,50 </td>
+                </tr>
+              </tbody>
+              <!-- TFOOT= RODAPÉ DA TABELA -->
+               <tfoot>
+                <tr>
+                    <td colspan="5">Tabela feita por: débora</td>
+                </tr>
+               </tfoot>
+        </Table>
+     </main>
+
+     <footer>
+        <p>Segue nóis</p>
+     </footer>
+</body>
+</html>
