@@ -1,0 +1,45 @@
+body{
+    background-color: red;
+
+      /*Alinhamento de texto*/
+      list-style: none;
+
+}
+/*ESTILIZAÇÃO IA TAG*/
+
+ul{
+    background-color: azure;
+    list-style: none;
+}
+
+li{
+    /*Cor de fundo*/
+    background-color: black;
+
+     /*Cor de texto*/
+     color: white;
+
+     /*Largura do elemento*/
+     width: 200px;
+
+     /*Altura do elemento*/
+     height: 50px;
+
+     /*Tamanho da fonte*/
+     font-size: 30px;
+         
+     /*Espaço do elemento para fora*/
+     margin-left: auto;
+     margin-right: auto;
+}
+
+h2{
+     font-size: 70px;
+     color: yellow;
+
+     /*Estilo do texto*/
+     font-style: italic;
+
+     /*Família da fonte*/
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
