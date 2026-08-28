@@ -1,0 +1,59 @@
+/* SELECIONA TODOS OS ELEMENTOS */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: antiquewhite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+
+/* SELETOR POR ID QUE USAMOS O JOGO DA "#" PARA SELECIONAR*/
+#topo{
+    background-color: brown;
+    margin: 15px 0px;
+    border: 10px solid black;
+    padding: 10px;
+
+}
+
+/* SELETOR POR CLASS = QUE PODE SER USADA EM DIRERENTES LUGARES, AO CONTRÁRIO DO ID*/
+.texto-top{
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 20px;
+}
+
+/* ESTILIZA OS ELEMENTOS COM A CLASS "BLOCO" */
+.bloco{
+    background-color: bisque;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 2px solid;
+    border-radius: 11px;
+}
+
+.destaque{
+    background-color: gold;
+}
+/* espaço interno de 10px margem para cima e para baixo de 15px borda de 10px  NO ".TOPO"*/
+/* elementos da classe destaque tenham um fundo dourado */
+/* texto destaque negrito e cor darkred */
+/* padding 10px caixa unica, borda 2px na cor roxa e cor da caixa #ede9fe */
+/* "PALETA DE CORES HEXADECIMAIS" */
+
+.texto-destaque{
+    font-weight: bold ;
+    color: darkred;
+}
+
+#caixa-unica{
+    padding: 10px;
+    border: 2px purple;
+    background-color: #ede9fe;
+}
