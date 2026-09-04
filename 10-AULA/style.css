@@ -4,6 +4,8 @@
     margin: 0px;
     padding: 0px;
 }
+
+/* SELETOR POR TAG */
 body{
     background-color: antiquewhite;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -54,6 +56,84 @@ body{
 
 #caixa-unica{
     padding: 10px;
-    border: 2px purple;
+    border: 2px solid purple;
     background-color: #ede9fe;
 }
+
+/* AULA 10.1 DO DIA 03/09/2026 */
+
+/* TODOS OS "P" QUE ESTÃO DENTRO DE UMA "DIV" TEM QUE TER A COR AZUL */
+div p{
+    color: blue;
+}
+
+/* SELECIONA TODOS OS"P" QUE SÃO FILHOS DIRETOS DA CLASS ESPECÍFICA */
+.pai-direto > p{
+    color: green;
+    padding: 5px;
+}
+
+/* SELECIONA TODO O "P" QUE VEM LOGO APÓS UM H3 DESDE QUE SEJA IRMÃO */
+h3 + p{
+    color: red;
+    font-weight: bold;
+}
+
+/* SELECIONA TODOS OS "P" QUE VEM APÓS O H4, DESDE QUE SEJAM IRMÔES */
+h4 ~ p{
+    color: blueviolet;
+    background-color: aliceblue;
+}
+
+/* SELECIONA POR ATRIBUTOS ESPECÍFICOS */
+
+/* SELECIONA TODOS OS INPUTS QUE TENHAM O TIPO DE TEXTO */
+input[type="text"]{
+    border: 2px solid orange;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+/* SELECIONA TODOS OS LINKS QUE TENHAM ESSE VALOR NO HREF */
+a[href*="microsoft "]{
+    color: green;
+    font-weight: bolder
+}
+
+/* MESMO ESTILO PARA DUAS TAGS DIFERENTES */
+h5, h6{
+    color: purple;
+    margin: 5px 0px;
+    font-weight: bolder;
+}
+
+/* SELECIONA O ELEMENTO QUE TEM AS DUAS CLASSES AO MESMO TEMPO */
+.botao.ativo{
+    color: red;
+    font-size: 30px;
+    padding: 50px;
+}
+
+/* SELECIONA O "P" DESDE QUE TENHA A CLASS "AVISO" */
+p.aviso{
+    color: chartreuse;
+}
+
+/* SELECIONA A APENAS A DIV QUE TENHA O ID PAINEL */
+div#painel{
+    background-color: rebeccapurple;
+    padding: 10px;
+}
+
+/* SELECIONANDO FILHO DENTRO DE FILHO */
+#menu ul li a{
+    color: violet;
+}
+
+
+
+
+
+
+
+
